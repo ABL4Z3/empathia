@@ -1,0 +1,26 @@
+{
+  "name": "empathia-backend",
+  "version": "0.1.0",
+  "description": "Backend for Empathia - NestJS with Socket.IO",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/websockets": "^9.0.0",
+    "@nestjs/platform-socket.io": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.0.0",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/testing": "^9.0.0",
+    "typescript": "^4.7.4",
+    "ts-node": "^10.9.1"
+  }
+}
